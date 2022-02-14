@@ -54,13 +54,13 @@ npm-debug.log*
 ### yarn ###
 # https://yarnpkg.com/advanced/qa#which-files-should-be-gitignored
 
-.yarn
-!.yarn/releases
+.yarn/*
+# !.yarn/cache
+!.yarn/patches
 !.yarn/plugins
+!.yarn/releases
 !.yarn/sdks
 !.yarn/versions
-yarn-debug.log*
-yarn-error.log*
 
 ### VisualStudioCode ###
 .vscode/*
